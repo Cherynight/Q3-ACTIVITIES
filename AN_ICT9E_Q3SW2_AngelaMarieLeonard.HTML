@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+     <style type="text/css">
+		h1,h2,h3,th{
+			font-family: 'EB Garamond';
+			padding:10px;
+		}
+		p,td{
+			font-family: 'Raleway';
+			padding:10px;
+		}
+		img{
+			width:500px;
+		}
+		body{
+        background:#FFEDF5 ;
+		}
+	</style>
+	<title> Movies </title>
+</head>
+<body>
+<div class="container">
+
+     <nav class="navbar nav-tabs navbar-expand-1g navbar-dark">         
+     	<a class="navbar-brand" style="color: #9C0045 ;">MOVIES</a>
+
+         <ul class="nav navbar-tabs">
+
+             <li class="nav-item"><a href="#" class="nav-link"> HOME </a> </li>
+
+             <li class="nav-item"><a href="#" class="nav-link"> ABOUT US</a></li>
+
+             <li class="nav-item"><a href="#" class="nav-link"> CONTACT US</a></li>
+
+         </ul>
+           <form class="form-inline"> 
+           <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+           <button Class="btn btn-outline-success" type="submit">Search</button>
+
+</form>
+</nav>
+</div>
+
+<h2 class="bg-light text-dark center"> Favorite Movies
+<div class="container">
+       <table class="table table-striped table-hover table-success">
+       	    <tr>
+       	    	<th>Movie</th>
+       	     	<th>Info</th>
+       	     	<th>Synopsis</th>
+       	    </tr>
+            <tr>
+            	<td><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQphn7LPT6mWSqmlt9cAULMkRLwzRwV9-TDPTts7CXiJmEiBy1m" class="img-thumbnail" width="250"></td>
+       	     	<td>
+       	     		<li>Title:Enola Homes</li>
+       	     	    <li>Director:Harry Bradbeer</li>
+       	     	    <li>Release Date:Sept 23,2020</li>
+       	     	 </td>
+       	     	<td>While searching for her missing mother,Enola Holmes uses her sleuthing skills to outsmart big brother Sherlock and help a runaway lord.</td>
+       	    </tr>
+       	    <tr>
+       	    	<td><img src="https://m.media-amazon.com/images/M/MV5BMDk5NjVlOGQtMGQ1Zi00MjZlLWI0NGUtYTllMWNiODRlYmUzXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_.jpg" class="img-thumbnail"></td>
+       	     	<td>
+                    <li>Title:Work it</li>
+       	     	    <li>Director:Laura Terruso</li>
+       	     	    <li>Release Date:Aug 7, 2020</li>
+       	     	</td>
+       	     	<td>An awkward 18-year-old achieves near-perfection by sheer hard work. She vows to transform her gawkiness through dance, and refine her skills until she competes at a competition.</td>
+       	    </tr>
+       	    <tr>
+       	    	<td><img src="https://m.media-amazon.com/images/M/MV5BNzM1ODI4Y2UtMGYxMS00OTUxLWE4NzItNjgxMTM2NzRjZThkXkEyXkFqcGdeQXVyMTA1OTcyNDQ4._V1_.jpg" class="img-thumbnail"></td>
+       	     	<td>
+                    <li>Title:The School for Good and Evil</li>
+       	     	    <li>Director:Paul Feig</li>
+       	     	    <li>Release Date:Oct 18, 2022</li>
+       	     	</td>
+       	     	<td> Best friends Sophie and Agatha find themselves on opposing sides of an epic battle when they're swept away into an enchanted school where aspiring heroes and villains are trained to protect the balance between good and evil.</td>
+       	    </tr>
+   </table>
+   </div>
+       	    <h2 class="bg-light text-dark">Raitings and Reviews</h2>
+       <div class="container table-success text-light"> 
+       <form class="form-group">
+       	   Enter Firstname<input type="text" name="Firstname" class="form-control" placeholder="Type your Firstname"><br>
+           Enter Lastname<input type="text" name="Lastname" class="form-control" placeholder="Type your Lastname"><br>
+           <select class="form-control">
+
+            <option>Enola Holmes</option>
+
+            <option>Work it</option>
+
+            <option>The School for Good and Evil</option>
+
+
+          </select>
+
+          <br>
+
+          Date: <input type="date" name="enrolled" class="form-control">
+
+          <br>
+        <strong> Rating and Review</strong><br>
+		<textarea name="Feedback" rows="5" cols="54">
+		</textarea> <br>
+
+          <input type="submit" value="SUBMIT" class="btn btn-success btn-block"> 
+          <input type="reset" value="RESET" class="btn btn-danger btn-block">
+
+
+       </form>
+
+         <h6 class="bg-light text-dark">References:</h6>
+
+         <a href="https://www.rottentomatoes.com/m/the_school_for_good_and_evil"> THE SCHOOL FOR GOOD AND EVIL</a> <br>
+         <a href="https://www.rottentomatoes.com/m/work_it"> WORK IT</a>  <br>
+         <a href="https://www.rottentomatoes.com/m/enola_holmes"> ENOLA HOLMES</a><br>
+</div>
+<footer> <small>&copy; AMLeonard 2023 </small></footer>
+</body>
+</html>
